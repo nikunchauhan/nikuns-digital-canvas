@@ -9,18 +9,20 @@ import Contact from "@/components/Contact";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background noise-bg">
       <Navbar />
       <Hero />
       <About />
       <Skills />
       <Projects />
-      <CodingProfiles />
       <Education />
+      <CodingProfiles />
       <Contact />
-      <footer className="py-8 border-t border-border">
-        <div className="section-container text-center text-sm text-muted-foreground">
-          © {new Date().getFullYear()} Nikun Chauhan. Built with passion.
+      <footer className="py-10 border-t border-border/30">
+        <div className="section-container text-center">
+          <p className="text-xs text-muted-foreground/60">
+            © {new Date().getFullYear()} Nikun Chauhan — Built with passion & code
+          </p>
         </div>
       </footer>
     </div>
