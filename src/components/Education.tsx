@@ -5,13 +5,13 @@ const items = [
   {
     icon: Award,
     title: "Class 12 — 92.6%",
-    subtitle: "Senior Secondary Education",
+    subtitle: "R R Morarka Public School, Dwarikesh Nagar",
     detail: "Strong academic foundation in science and mathematics",
   },
   {
     icon: GraduationCap,
     title: "B.Tech — 8.7 CGPA",
-    subtitle: "1st Year, Computer Science",
+    subtitle: "KIET Group of Institutions, 2nd Year",
     detail: "Consistently excelling in coursework and practical projects",
   },
 ];
