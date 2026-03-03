@@ -88,7 +88,7 @@ const Hero = () => {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            <div className="relative w-40 h-40 sm:w-48 sm:h-48 lg:w-56 lg:h-56 animate-float">
+            <div className="relative w-48 h-48 sm:w-56 sm:h-56 lg:w-64 lg:h-64 animate-float">
               {/* Glow behind photo */}
               <div className="absolute -inset-4 rounded-full bg-gradient-to-br from-primary/20 via-accent/10 to-transparent blur-2xl" />
               {/* Ring */}
